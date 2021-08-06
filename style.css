@@ -1,0 +1,251 @@
+/** 
+ * Ashwin 
+ * Custom CSS 
+ * Britwise Technology
+ * 
+ */
+
+
+/* =============== Header =============== */
+.header_custom{
+	overflow: auto;
+}
+/* =============== Header =============== */
+
+
+/*Home Page*/
+.new-img {
+	height: 230px !important;
+}
+div.sticky {
+    position: sticky !important;
+    /*overflow: auto;*/
+    width: 100%;
+    /*overflow-y: hidden;*/
+    margin: 0px;
+}
+.fixed-position {
+    position: fixed;
+}
+.nav-tabs>li>a:hover {
+    border-color: black black black;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: black;
+}
+.btn-primary-outline {
+    background-color: transparent;
+    border: white;
+}
+.select2-container--default .select2-selection--single {
+    border: 0px solid #d6d6d6;
+}
+.min-padding {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+/* mobile banner css start */
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+.font-scroll {
+    font-size: 24px;
+}
+.mobile-banner-height {
+    height: auto;
+    width: 100%;
+}
+
+/*Home Page Too Easy Grids*/
+.grids_too_esy {
+    height: 105px;
+}
+button.dropdown.city_btn{
+	margin-top: 2.5%;
+	margin-left: 20%;
+	width: 97%;
+}
+img.user_icon{
+	margin-left: 9px;
+}
+/*Home Page Too Easy Grids*/
+
+/* ============= Home Page ============= */
+.autocomplete-suggestions {
+    overflow: auto!important;
+}
+.header-row{
+    width: 100%;
+    margin: 0;
+}
+
+/* ============= Home Page ============= */
+
+/* ============= Detail Page ============= */
+#overview p:last-child{
+    padding-bottom: 40px;
+}
+/* ============= Detail Page ============= */
+
+/*Media Query*/
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+    .font-scroll {
+    	font-size: 11px !important;
+    }
+    .mobile-banner-height {
+    	height: 257px !important;
+    	width: 100%;
+    }
+}
+
+/* mobile banner css end */
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+    .hide-for-web {
+    	display: block !important;
+    }
+    .widget__header-mobile {
+	    margin-top: 10px !important;
+	    margin-bottom: 10px !important;
+    }
+    .widget__content-hot {
+	    padding-bottom: 0px !important;
+    }
+    .margin-top-zero {
+	    margin-top: 5% !important;
+    }
+    .font-heading-size {
+	    color: black;
+	    font-size: 16px !important;
+	    font-weight: 600;
+	    margin-bottom: 5%;
+    }
+    .margin-bottom-icon {
+	    margin-top: 10% !important;
+    }
+    .show-mobile{
+	    display: block!important;
+    }
+    .buy-choose{
+        margin-left: 0px !important;
+    }
+}
+
+
+@media only screen and (min-width: 780px) and (max-width: 1024px){
+	.buy-choose{
+	    margin-left:52px !important;
+	}
+ 	.show-mobile{
+    	display: none!important;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+	.buy-choose{
+	    margin-left:68px !important;
+	}
+  	.show-mobile{
+    	display: none!important;
+    }
+
+}
+
+@media only screen and (min-width: 1281px){
+ 	.buy-choose{
+    	margin-left:140px !important;
+ 	}
+  	.show-mobile{
+    	display: none!important;
+    }
+}
+
+/*Media Query*/
+@media(max-width: 1200px){
+    .desktablet_hide{
+        display: none;
+    }
+    .row.wdth100 {
+        width: 100%;
+    }
+    a.navbar-brand.header_logo{
+        width: 100%;
+
+    }
+    a.navbar-brand.header_logo img {
+        width: 100%!important;
+        margin: 0;
+    }
+}
+
+@media (max-width: 992px){
+    .tablet_hide{
+        display: none;
+    }  
+}
+@media (max-width: 767px) {
+	button.dropdown.city_btn{
+		margin-left: 0%;
+	}
+	.header_logo img{
+		width: 98px!important;
+	}
+	.show_mobile{
+		margin-left: 0px!important;
+		padding-left: 24px;
+	}
+	img.user_icon{
+		margin-left: 0;
+	}
+	.header_custom{
+		overflow: hidden;
+	}
+    .header__row .top .col-xs-8 {
+        padding-right: 0px;
+    }
+    .header__row .top button.dropdown.city_btn{
+        width: 95%!important;
+        margin-left: 5%!important;
+    }
+    a.navbar-brand.header_logo, .top .vw {
+        padding-left: 0px!important;
+    }
+    a.navbar-brand.header_logo img{
+        margin-left: 0px;
+    }
+    span#select2-city_list_dd-container{
+        font-size: 14px;
+        padding: 0 8px 0px 0px!important;
+    }
+    div.logo-div{
+        padding-right: 0px;
+    }
+    div.menu-div{
+        padding-left: 0px;
+    }
+}
+
+
+@media(min-width: 992px){
+    .show-tablets{
+        display: none;
+    }
+}
+@media(min-width: 1201px){
+    .deskshow-tablets{
+        display: none;
+    }
+}

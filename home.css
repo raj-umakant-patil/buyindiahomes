@@ -1,0 +1,431 @@
+.counter-number-font{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* counter font css start */
+    
+.font-counter{
+    font-weight: bold;
+    font-size: 25px
+}
+
+.count_text{
+    color: black;
+    font-size: 20px;
+}
+    
+/* counter font css end */
+    
+    
+    /*homepage banner css start*/
+    
+   
+    .icons{
+        width:15%;
+    }
+    .panel-customized-mobile {
+        padding: 0%;
+        margin-bottom: 24px;
+        background-color: #0e0e0ecc;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    }
+    .button-search-mobile-banner{
+        height: 45px;
+        border: 2px solid;
+        padding-top: 1%;
+        
+    }
+    .button-map-mobile-banner{
+        height: 45px;
+        border: 2px solid;
+        border-left: 0px;
+        padding-top: 1%;
+        
+    }
+
+    .nav-tabss > li.active > a, .nav-tabss > li.active > a:hover, .nav-tabss > li.active > a:focus {
+        color: #ffffff!important;
+    }
+    .nav-tabss > li {
+        float: left;
+        margin-bottom: -7px!important;
+    }
+    .backgroud-buying-section-title{
+        /* background-image: url('../../vendor/web-theme/img/BackgroundImage.jpg'); */
+        background-color: black;
+        background-size: 100% 100%;
+    }
+    .icon-width-buying{
+        width: 50%;
+    }
+    .icon-text{
+        color: white;
+    }
+    .footer-contact {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+     }
+     .enquiry-background{
+        background-color: #c12c21;
+        width: 100%;
+        height: 45px;
+     }
+     
+     .span-margin{
+        margin-top: 9%;
+     }
+@media only screen and (min-width:320px) and (max-width:780px) {
+    .count_text {
+        color: black;
+        font-size: 10px!important;
+    }
+    .counter-number-font{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .margin-right-icon{
+        margin-right: 0px!important;
+    }
+    .responsive-why-to-choose {
+        width: 40%!important;
+      }
+    .font-color {
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    .title-text{
+        font-size: 12px;
+        color: white;
+    }
+    .icon-text{
+        color: white;
+        font-size: 12px;
+    }
+
+    
+    .backgroud-buying-section-title{
+        /* background-image: url('../../vendor/web-theme/img/BackgroundImage.jpg'); */
+        background-color: black;
+        background-size: 100% 100%;
+    }
+    .widget__title{
+        font-size: 10px!important;
+        color: white;
+        text-align: center;
+    }
+    .backgroud-buyer-section-title{
+        background-image: url('../../vendor/web-theme/img/white.jpg');
+        background-size: 100% 100%;
+    }
+    .col-width {
+         width: 100%!important;
+    }
+    .carousel-inner-height {
+        height: auto!important;
+    }
+    .margin-form{
+        margin: 0% 0% 0% 0%;
+    }
+    .display-mobile{
+        display: block!important;
+    }
+    .hide-mobile{
+        display: none!important;
+    }
+}
+@media only screen and (min-width:761px) and (max-width:1280px) and (orientation: landscape){
+    .margin-form{
+        margin: 20% 0% 7% 1%;
+    }
+}
+@media only screen and (min-width:761px) and (max-width:1024px){
+    .carousel-inner-height {
+        height: auto!important;
+    }
+    /* .margin-form-tab{
+        margin: 18% 0% 7% 1%!important;
+    } */
+    .home-image-banner{
+        width: 20%;
+        margin: 3%;
+    }
+    .input-width{
+        background-color: #dedede;
+        width: 260%!important;
+    }
+    .location-icon {
+        width: 5%;
+        /*margin-left: 6%!important;*/
+    }
+    /*hot property start*/
+    .hilight-top {
+        background-color: rgba(255, 255, 255, 0.65);
+        position: absolute;
+        height: 21px;
+        width: 170px!important;
+        bottom: 0px;
+        color: white;
+        z-index: 1;
+    }
+    /*hot property end*/
+}
+    .display-mobile{
+        display: none;
+    }
+.carousel-inner-height {
+    height: 553px;
+}
+.home-and-form-logo-alignment{
+    display: inline-grid!important;
+    margin-top: -1% !important;
+}
+.home-image-banner{
+    width: 23%!important;
+    margin: 3%;
+}
+.location-icon{
+    width: 5%;
+    /*margin-left: 1%;*/
+}
+
+.responsive{
+    width:100%;
+}
+.form-padding{
+    padding: 1%;
+}
+
+
+
+.input-width1{
+    background-color: white;
+    width: 87%!important;
+}
+.margin-form{
+    margin: 18% 0% 7% 25%;
+}
+
+.margin-button{
+    margin-left: 41%;
+}
+
+.a-href {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:780px) {
+    .carousel-inner-height {
+        height: auto!important;
+    }
+    .margin-form{
+        margin: 0% 0% 0% 0%;
+    }
+
+    .hilight {
+        background-color: rgba(255, 255, 255, 0.65);
+        position: absolute;
+        height: 21px;
+        width: 100%!important;
+        bottom: 0px;
+        color: white;
+        z-index: 1;
+    }
+    .hilight-top {
+        background-color: rgba(0,0,0,0.65);
+        position: absolute;
+        height: 21px;
+        width: 100%!important;
+        top: 0px;
+        color: white;
+        z-index: 1;
+    }
+
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.6;
+    border: 1px solid transparent;
+    border-radius: 0 0 0 0;
+    background-color: black;
+}
+.main-text {
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    /* padding-left: 25px;
+    padding-right: 55px; */
+    /*width: 110px!important;*/width: 100% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.6;
+    border: 1px solid transparent;
+    border-radius: 0 0 0 0;
+    background-color: black;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+
+}
+@-moz-document url-prefix() {
+    .form-inline .form-control {
+        display: inline-block;
+        width: 286%!important;
+        vertical-align: middle;
+        font-size: 14px;
+    }
+    .location-icon{
+        width: 5%;
+        margin-left: 0%!important;
+    }
+  }
+.form-inline .form-control {
+    display: inline-block;
+    width: 298%;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.panel-customized {
+    padding: 2%;
+    margin-bottom: 24px;
+    background-color: #0e0e0e6b;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.tab-content-white{
+    background-color: white;
+}
+/* Start New Css */
+
+@media only screen and (min-width:800px){
+    .home-and-form-logo-alignment {
+        margin-top:unset!important;
+    }
+    .panel-customized{
+        margin-top:18%;
+    }
+}
+.search_form{
+    max-width:100%;
+    overflow:hidden;
+}
+/* End New Css */
+/*homepage banner css end*/
+
+
+/*hot property start*/
+.col-lg-126 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px!important;
+    padding-right: 2px!important;
+
+}
+
+.hilight h2{
+    font-family: Helvetica, Verdana;
+    color: #FFF;
+    z-index: 200;
+}
+
+.promo {
+    position: relative;
+}
+.promo img {
+    z-index: 1;
+}
+
+.hilight {
+    background-color: rgba(255, 255, 255, 0.65);
+    position: absolute;
+    height: 29px;
+    width: 283px;
+    bottom: 0px;
+    color: white;
+    z-index: 1;
+}
+.hilight-top {
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    height: 29px;
+    width: 283px;
+    top: 0px;
+    color: white;
+    z-index: 1;
+}
+.hot-property-bottom-text{
+    font-size: 18px;
+    color: black;
+}
+.hot-property-top-text{
+    font-size: 18px;
+    color: white;
+}
+.img-height{
+    height: 270px;
+}
+.margin-top{
+    margin-top: 5%;
+}
+/*hot property end*/
+/*buyer choose section start*/
+.buyer-section{
+    margin-top: 30px;
+}
+.col-width{
+    width: 120%;
+}
+/*buyer choose section end*/
+
+/*Blog section start*/
+.carousel-control.left {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(0, 0, 0, 0.0001)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.0001) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+.carousel-control.right {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(0, 0, 0, 0.0001)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.0001) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: 80px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 80px;
+}
+.font-weight{
+    font-weight: 600;
+}
+/*BLog section end*/
